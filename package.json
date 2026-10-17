@@ -1,0 +1,23 @@
+{
+  "name": "stu-sso-cas-smoke-test",
+  "version": "1.0.0",
+  "description": "汕头大学统一身份认证 (CAS SSO) 最小化端到端联调与冒烟测试工具",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "sso",
+    "cas",
+    "cas-client",
+    "stu",
+    "shantou-university",
+    "smoke-test",
+    "authentication"
+  ],
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
